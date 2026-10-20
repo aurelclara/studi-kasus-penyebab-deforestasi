@@ -50,11 +50,6 @@ python latih_model.py            # latih dan lihat hasil di terminal
 python generate_report.py        # buat ulang index.html
 ```
 
-## Laporan HTML
-
-- **Membuka lokal:** double-click `index.html` (data sudah tertanam, tidak perlu internet).
-- **Lewat link:** aktifkan GitHub Pages di **Settings → Pages**, pilih branch `main` dan folder `/ (root)`.
-
 ## Keterbatasan
 
 - Data simulasi; bentuk gangguan disederhanakan.
