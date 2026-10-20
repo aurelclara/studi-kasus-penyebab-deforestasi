@@ -4,7 +4,7 @@ Studi kasus **CRISP-DM** berdasarkan kuliah praktisi *Attributing Direct Drivers
 
 Proyek ini membuat versi mini dari sistem yang dijelaskan pemateri: mengklasifikasikan **penyebab langsung** gangguan hutan (pertanian skala kecil dan besar, pertambangan, penebangan selektif, kebakaran, gangguan alami) dari kombinasi citra **radar (Sentinel-1)** dan **optik (Sentinel-2)**, lalu membandingkan kinerja optik saja, radar saja, dan gabungan, terutama saat langit berawan.
 
-🔗 **[Lihat laporan HTML (live)](https://USERNAME.github.io/studi-kasus-penyebab-deforestasi/)**
+🔗 **[Lihat laporan HTML (live)](https://aurelclara.github.io/studi-kasus-penyebab-deforestasi/)**
 
 > **Penting:** semua data adalah **simulasi** dan modelnya adalah *Random Forest* dengan ciri buatan tangan, bukan CNN pada citra asli. Angka akurasi tidak boleh dibaca sebagai kinerja sistem yang sebenarnya. Tujuannya memahami alur dan logikanya.
 
@@ -62,5 +62,4 @@ python generate_report.py        # buat ulang index.html
 - Pengembangan lanjutan: ganti ciri manual dengan CNN, atau pakai citra Sentinel asli (mis. lewat Google Earth Engine).
 
 ## Lisensi
-
-Proyek ini dibuat untuk keperluan pembelajaran.
+kuliah praktisi Attributing Direct Drivers to Deforestation Alerts with Satellite Imagery and AI, oleh Bart Slagter, Wageningen University & Research.
